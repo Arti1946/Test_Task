@@ -101,6 +101,6 @@ def parse_github():
                 )
 
 
-if __name__ == "__main__":
+def main(event, context):
     parse_github()
     update_positions_top_100()
